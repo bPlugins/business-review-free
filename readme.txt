@@ -163,9 +163,11 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 = 1.0.18 - 8 July, 2026 = 
 * Enhancement: If an API call fails, a user-friendly error message will be displayed.
+* New: We have added three new layouts: Grid1, Grid2, and Grid3.
 * Fix: The Yelp API issue has been resolved; the reason it was failing was that it could not fetch the reviews.
 * Update: Redesigned the shortcode and authorization areas.
 * Update: A modern dashboard has been added to both the Pro and Free versions of the Business Reviews plugin.
+
 
 = 1.0.17 - 12 April, 2026 =
 * Shortcode feature added.
