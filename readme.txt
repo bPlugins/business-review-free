@@ -288,6 +288,12 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Initial Release
 
 
+== Source Code ==
+
+You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
+[**Business Review on GitHub**](https://github.com/bPlugins/business-review-free)
+
+
 == External services Facebook, Google, Yelp ==
 
 https://api.bplugins.com/ 
@@ -309,3 +315,24 @@ Documentation link: https://bplugins.com/docs/business-reviews/
 
 Privacy Link: https://terms.yelp.com/privacy/
 Terms Link: https://terms.yelp.com/tos/en_us/20260101_en_us/
+
+= Font Awesome = 
+* **Source:** https://fontawesome.com/
+* **GitHub:** https://github.com/FortAwesome/Font-Awesome
+* **License:** SIL OFL 1.1 (Fonts), MIT (CSS) – https://fontawesome.com/license/free
+* **Purpose:** Provides scalable vector icons used for slider navigation arrows and UI elements.
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
+
+= Freemius Lite SDK =
+
+* **Source:** [https://bplugins.com/](https://bplugins.com/)
+* **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
+* **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
+* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
+
