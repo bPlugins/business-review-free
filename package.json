@@ -17,7 +17,7 @@
 		"i18n-mo": "wp i18n make-mo languages/",
 		"i18n": "npm run i18n-pot && npm run i18n-json && npm run i18n-mo",
 		"find-ds": "find . -name '.DS_Store' -delete",
-		"zip": "npm run find-ds && rm -f business-review.zip && zip -r business-review.zip index.php vendor readme.txt assets build languages -x '*.DS_Store'"
+		"zip": "npm run build && npm run i18n && npm run find-ds && rm -f business-review.zip && zip -r business-review.zip index.php uninstall.php includes vendor readme.txt assets build languages -x '*.DS_Store'"
 	},
 	"dependencies": {
 		"axios": "^1.2.0",
